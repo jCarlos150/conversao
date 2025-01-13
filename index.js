@@ -1,8 +1,8 @@
 import express from 'express'
-const sqlite3 = require('sqlite3').verbose();
-const fs = require('fs');
-const path = require('path');
-const bodyParser = require('body-parser');
+import sqlite3 from 'sqlite3'
+import fs from 'fs'
+import path from 'path'; 
+import bodyParser from 'body-parser';
 
 
 
