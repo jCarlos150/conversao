@@ -1,0 +1,14 @@
+{
+    "name": "convensao",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "sqlite3": "^5.0.0",
+      "fs-extra": "^10.0.0"
+    }
+  }
+  
