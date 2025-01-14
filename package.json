@@ -4,7 +4,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+         "postinstall": "npm rebuild better-sqlite3 --build-from-source"
     },
     "dependencies": {
         "better-sqlite3": "^11.7.2",
